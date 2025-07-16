@@ -3,6 +3,7 @@ import { authenticate } from "league-connect";
 import https from "https";
 import { loadChampionData } from "./ddragon/fetcher";
 import { getChampionName } from "./ddragon/mapper";
+import { saveChampionState } from "./io/writer";
 
 async function main() {
   // 1) Data Dragon에서 챔피언 매핑 로드
@@ -36,6 +37,8 @@ async function main() {
             // 챔피언 이름으로 변환
             const myTeamNames = myTeamIds.map(getChampionName);
             const theirTeamNames = theirTeamIds.map(getChampionName);
+
+            saveChampionState(myTeamNames, theirTeamNames);
 
             console.clear();
             console.log("✅ 내 팀 챔피언:", myTeamNames);
