@@ -1,0 +1,29 @@
+{
+  "name": "lol-ai-drafter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamMinwu/lol-ai-drafter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NamMinwu/lol-ai-drafter/issues"
+  },
+  "homepage": "https://github.com/NamMinwu/lol-ai-drafter#readme",
+  "dependencies": {
+    "@types/node": "^24.0.14",
+    "league-connect": "^6.0.0-rc13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
