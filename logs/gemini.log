@@ -1,0 +1,45 @@
+[2025-07-16T19:00:31.581Z] Loaded current.json
+[2025-07-16T19:00:31.583Z] Constructed prompt
+[2025-07-16T19:00:31.584Z] Spawning Gemini CLI (YOLO mode)
+[2025-07-16T19:00:46.735Z] Loaded current.json
+[2025-07-16T19:00:46.737Z] Constructed prompt
+[2025-07-16T19:00:46.737Z] Spawning Gemini CLI (YOLO mode)
+[2025-07-16T19:01:12.384Z] Loaded current.json: /Users/nammin-wu/Documents/playground/lol-ai-drafter/current.json
+[2025-07-16T19:01:12.385Z] Constructed prompt (length 253)
+[2025-07-16T19:01:12.386Z] Spawning gemini CLI: /Users/nammin-wu/Documents/playground/lol-ai-drafter/bin/gemini
+[2025-07-16T19:01:12.423Z] gemini process closed with code=0
+[2025-07-16T19:01:12.424Z] Full output:
+
+[2025-07-16T19:01:12.424Z] ERROR: JSON 블록을 찾을 수 없습니다.
+[2025-07-16T19:01:29.850Z] Loaded current.json
+[2025-07-16T19:01:29.852Z] Constructed prompt
+[2025-07-16T19:01:29.852Z] Spawning Gemini CLI (YOLO mode)
+[2025-07-16T19:03:27.382Z] Loaded current.json
+[2025-07-16T19:03:27.385Z] Constructed prompt
+[2025-07-16T19:03:27.386Z] Spawning Gemini CLI (YOLO mode)
+[2025-07-16T19:03:28.980Z] stdout chunk ...
+[2025-07-16T19:03:51.918Z] stdout chunk ...
+[2025-07-16T19:03:51.953Z] stdout chunk ...
+[2025-07-16T19:03:51.954Z] stdout chunk ...
+[2025-07-16T19:03:51.961Z] Gemini exited with code=0
+[2025-07-16T19:03:51.961Z] Full output:
+Loaded cached credentials.
+```json
+{
+  "pick": [
+    "잔나",
+    "모르가나",
+    "룰루"
+  ]
+}
+```
+
+[2025-07-16T19:03:51.961Z] Extracted JSON:
+{
+  "pick": [
+    "잔나",
+    "모르가나",
+    "룰루"
+  ]
+}
+[2025-07-16T19:03:51.961Z] Parsed pick: 잔나, 모르가나, 룰루
